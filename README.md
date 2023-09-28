@@ -24,7 +24,8 @@
 
 `.zshrc`に私のニックネームが書かれています。<br>
 下のコードから私のニックネームを消して、使用する方のニックネームに変更してください！
-https://github.com/yuminn-k/hello-my-new-desktop/blob/861a79039ac8bf8390d3748af45727c3389080f4/zsh/.zshrc#L108-L110
+
+https://github.com/yuminn-k/hello-my-new-macbook/blob/079011b96516b0290f8ded33eef58cc39e7d4bd3/zsh/.zshrc#L108-L110
 
 ## setting
 
