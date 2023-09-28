@@ -1,67 +1,66 @@
 # how-i-met-my-laptop
 
-새로운 맥북을 구입한 기념으로 **개발 환경 설정을 자동으로 수행**하는 shell script를 작성하였습니다.<br>
-다음과 같은 툴들을 설치합니다.
+新しいMacBookを購入した記念に**開発環境設定を自動で行う**shell scriptを作成しました。<br>
+次のようなツールをインストールします。
 
 | Tool name     | 비고                                 |
 | ------------- | ------------------------------------ |
 | node          | @18                                  |
 | nvm           |                                      |
-| vscode        | 확장프로그램까지 포함                |
+| vscode        | 拡張プログラムまで含め                |
 | KakaoTalk     |                                      |
 | Slack         |                                      |
 | Discord       |                                      |
-| RunCat        | CPU 사용량 등을 표시해주는 생산성 앱 |
-| Amphetamine   | 맥북 화면이 꺼지지 않게 해주는 앱    |
-| Monosnap      | 스크린 캡쳐 앱                       |
+| RunCat        | CPU使用量などを表示してくれる生産性向上アプリ |
+| Amphetamine   | MacBookの画面が消えないようにするアプリ    |
+| Monosnap      | スクリーンキャプチャアプリ                       |
 | postman       |                                      |
 | sourcetree    |                                      |
 | google-chrome |                                      |
 | iterm2        |                                      |
-| Fig           | git 명령어를 자동완성 해주는 앱      |
+| Fig           | gitコマンドを自動補完してくれるアプリ      |
 
-## 🚨 주의!
+## 🚨 ご注意!
 
-`.zshrc`에 저의 닉네임이 작성되어 있어요.<br>
-아래 코드에서 제 닉네임을 지우고, 사용하시는 분의 닉네임으로 변경해주세요!
-
-https://github.com/yuminn-k/hello-my-new-desktop/blob/440061be50dc47e2c6d24e220230013ed6b04e2e/zsh/.zshrc#L108-L110
+`.zshrc`に私のニックネームが書かれています。<br>
+下のコードから私のニックネームを消して、使用する方のニックネームに変更してください！
+https://github.com/yuminn-k/hello-my-new-desktop/blob/861a79039ac8bf8390d3748af45727c3389080f4/zsh/.zshrc#L108-L110
 
 ## setting
 
-1️⃣ 터미널에서 아래 명령어를 입력하면 git을 설치합니다.
+1️⃣ ターミナルで下記のコマンドを入力したらgitをインストールします。
 
 ```
 git --version
 ```
 
-2️⃣ git clone 명령어를 실행하여 개발 환경 스크립트를 복사합니다.
+2️⃣ git cloneコマンドを実行して開発環境スクリプトをコピーします。
 
 ```
 git clone https://github.com/yuminn-k/hello-my-new-desktop.git
 ```
 
-3️⃣ 개발 환경을 자동으로 설정합니다.
+3️⃣ 開発環境を自動的に設定します。
 
 ```
-./how-i-met-my-laptop/install.sh
+./hello-my-new-desktop/install.sh
 ```
 
-🛠 이때, 권한 문제로 install.sh가 실행되지 않는다면?
+🛠 この時、権限の問題でinstall.shが実行されない場合は？
 
-1️⃣ 폴더로 진입합니다.
+1️⃣ フォルダに入ります。
 
 ```
-cd how-i-met-my-laptop
+cd hello-my-new-desktop
 ```
 
-2️⃣ 실행 권한을 수정합니다.
+2️⃣ 実行権限を修正します。
 
 ```
 chmod +x install.sh
 ```
 
-3️⃣ 실행합니다.
+3️⃣ 実行します。
 
 ```
 ./install.sh
