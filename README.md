@@ -1,4 +1,4 @@
-# how-i-met-my-laptop
+# hello-my-new-macbook
 
 新しいMacBookを購入した記念に**開発環境設定を自動で行う**shell scriptを作成しました。<br>
 次のようなツールをインストールします。
